@@ -1,0 +1,16 @@
+/* pages/loadding/loadding.wxss */
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+   /* background-image: url("https://6c65-leo-bm5u6-1302020231.tcb.qcloud.la/3.jpg?sign=3e0466c0ee46f63e927f76fbabcb2f88&t=1589435721"); 
+  background-position: center;*/
+  background-color:lightslategrey;
+  font-size: 25rpx;
+  background-size: 100%;
+}
+.container{
+  color: #ffffff;
+  height: 100%
+}

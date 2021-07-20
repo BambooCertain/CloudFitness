@@ -1,0 +1,197 @@
+page{
+  font-size: 3vh;
+  background-color: white;
+}
+.containter{
+  width: 90vw;
+  margin: 0 auto;
+}
+.line-2,.line-1,.line-3,.line-4,.line-5,.line-6{
+  margin-bottom: 1vh;
+}
+.line-1{
+  height: 12vh;
+}
+.userUrl{
+  float: left;
+  height: 12vh;
+}
+.userInfo{
+  height: 8vh;
+  float: left;
+  margin: 2vh 0;
+}
+.userInfoName{
+  line-height: 4vh;
+  font-size: 2vh;
+}
+.userInfoDepart{
+  line-height: 3vh;
+  font-size: 2vh;
+}
+.userHistory{
+  float:right;
+  line-height: 8vh;
+}
+
+.line-2{
+  clear: both;
+  overflow: hidden;
+  height: 25vh;
+  border-radius: 2vh;
+  background-color: #79bff5;
+  color: white;
+}
+.steps{
+  width: 35vw;
+  float: left;
+  padding:2vh 3vw;
+}
+
+.stepsCircle{
+  text-align: center;
+}
+.stepsTarget{
+  margin-top: 2vh;
+  text-align: center;
+}
+.stepConvert{
+  width: 48vw;
+  margin: 2vh 1vw 2vh 0;
+  font-size: 2.5vh;
+  float:right;
+}
+.stepConvert_1{
+  margin-bottom: 0.5vh;
+}
+.btnClockIn{
+  width: 33vw;
+  line-height: 200%;
+  text-align: center;
+  border-radius:1vh;
+  margin: 0 auto;
+  margin-top: 2vh;
+}
+.btnS{
+  background-color: #ff9933;
+  color: white;
+}
+.btnH{
+  background-color: olivedrab;
+  color:blanchedalmond;
+}
+.btnGrey{
+  background: lightgrey;
+  color:#eee
+}
+.line-3{
+  height:20vh ;
+}
+.p4{
+  height: 9vh;
+  width: 44vw;
+  border-radius: 1vh;
+  background-color: thistle;
+}
+.p4-1,.p4-2{
+  margin-bottom:1vh ;
+}
+.p4-1,.p4-3{
+  clear: both;
+  float: left;
+  background-color: #f4e8ff;
+}
+.p4-2,.p4-4{
+  float:right;
+}
+.p4-2{
+  background-color: #ffeee6;
+}
+.p4-4{
+  background-color: #e7fcfc;
+}
+.p4Pic{
+  float: left;
+  line-height: 10vh;
+  margin-left: 5vw;
+  margin-right: 2vw;
+}
+.p4Pic image{
+  margin-top: 2vh;
+  height: 6vw;
+  width:6vw;
+}
+.p4Word{
+  line-height: 10vh;
+  font-size: 5vw;
+  overflow: hidden;
+  margin-left: 2vw;
+}
+.p4Word2{
+  line-height: 4vh;
+  padding: 1vh 0;
+  font-size: 3vw;
+}
+.p4Word3{
+  line-height: 4vh;
+  padding: 3vh 0;
+  font-size: 3vw;
+}
+
+.line-4{
+  clear: both;
+  overflow: hidden;
+  margin-top: 2vh;
+  height: 15vh;
+  text-align: center;
+  line-height: 15vh;
+}
+
+.lucky{
+  clear: both;
+  width: 50vw;
+  border-radius: 4vh;
+  background: #24c68a;
+  line-height: 9vh;
+  margin: 2vh auto;
+  color: white;
+  font-size: 4vh;
+  font-weight: bold;
+}
+.luckyPic image{
+  margin-top: 2vh;
+  height: 8vw;
+  width:8vw;
+}
+.luckyPic{
+  margin-left: 8vw;
+  float: left;
+  margin-right: 1vw;
+}
+.luckyWord{
+  overflow: hidden;
+  text-align: left;
+  font-size: 6vw;
+}
+.line-5{
+  clear: both;
+  text-align: center;
+  height: 10vh;
+}
+.prizeTitle,.prizeTime{
+  line-height:6vh;
+}
+.prizeTitle{
+  font-size: 4vh;
+  font-weight: bolder;
+}
+.prizeTime{
+  font-size: 4vw;
+}
+.line-6{
+  clear: both;
+  text-align: center;
+  height: 10vh;
+  margin-top: 7vh;
+  font-size: 5vw;
+}

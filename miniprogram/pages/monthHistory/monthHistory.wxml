@@ -1,0 +1,9 @@
+<!--pages/monthHistory/monthHistory.wxml-->
+
+<view class="container">
+  <view class="chooseM">选择月份</view>
+  <view class="monthList" wx:for="{{monthLists}}" wx:key="key">
+    <view class="month" bindtap="viewDayList" data-month="{{item.month}}">{{item.month}}</view>
+    <view class="viewDays" bindtap="viewDayList" data-month="{{item.month}}">></view>
+  </view>
+</view>

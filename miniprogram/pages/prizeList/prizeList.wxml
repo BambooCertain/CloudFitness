@@ -1,0 +1,11 @@
+<!--pages/prizeList/prizeList.wxml-->
+<view class="container">
+  <view class="chooseM">奖品列表</view>
+  <view class="monthList" wx:for="{{monthLists}}" wx:key="key">
+    <view class="month" wx:if="{{item.prizeGrade}}">{{item.month}}</view>
+    <view class="prize" wx:if="{{item.prizeGrade}}">
+
+      你获得了： <text style="color:red">{{item.prizeGrade}}</text>，奖品是：<text style="color:red">{{item.prizeName}}</text>
+    </view>
+  </view>
+</view>

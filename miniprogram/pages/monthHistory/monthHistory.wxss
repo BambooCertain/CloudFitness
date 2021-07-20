@@ -1,0 +1,26 @@
+/* pages/monthHistory/monthHistory.wxss */
+.container{
+  width: 90vw;
+  margin: 0 auto;
+}
+.chooseM,.monthList{
+  line-height: 10vh;
+}
+.chooseM{
+  width: 90vw;
+  text-align: left;
+  font-weight: bold;
+  font-size: 5vh;
+}
+.monthList{
+  border-bottom: 1px solid lightgrey;
+  width: 90vw;
+}
+.month{
+  float: left;
+  width: 85vw;
+}
+.more{
+  float: right;
+width: 5vw;
+}

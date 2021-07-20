@@ -1,0 +1,44 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* background-image: url("https://6c65-leo-bm5u6-1302020231.tcb.qcloud.la/3.jpg?sign=3e0466c0ee46f63e927f76fbabcb2f88&t=1589435721"); 
+  background-position: center;*/
+  background-color:lightslategrey;
+  font-size: 25rpx;
+  background-size: 100%;
+}
+.mainText{
+  background: white;
+  margin: 20rpx;
+  border-radius: 30rpx;
+  padding: 20rpx;
+  width: 90%;
+}
+.hdTitle{
+  text-align: center;
+  font-size: 40rpx;
+  margin-bottom: 20rpx;
+}
+.hdH1{
+  font-weight: bold;
+  margin: 15rpx 0 10rpx 0;
+  font-size: 30rpx;
+}
+.hdP{
+  text-indent: 2em;
+  line-height: 150%;
+  font-size: 25rpx;
+}
+.btnS{
+  width: 50vw;
+  background-color: #ff9933;
+  color: white;
+}
+.btnH{
+  background-color: olivedrab;
+  color:blanchedalmond;
+}

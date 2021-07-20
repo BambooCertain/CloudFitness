@@ -1,0 +1,83 @@
+/* pages/signUp/signUp.wxss */
+page {
+  background:white;
+}
+.container{
+  width: 90vw;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.topPic{
+  height: 15vh;
+  border-bottom: 1px solid #eee;
+ }
+.fresh{
+  width: 70vw;
+  float: left;
+  line-height: 15vh;
+}
+.userUrl{
+  width: 20vw;
+  float: right;
+  line-height: 15vh;
+}
+.uName{
+  height: 10vh;
+  border-bottom: 1px solid #eee
+}
+.uLeft{
+  line-height: 10vh;
+  float: left;
+  width: 40vw;
+}
+.uRight{
+  line-height: 6vh;
+  float:right;
+  width: 45vw;
+  text-align: right;
+  padding-right: 5vw;
+  margin-top: 2vh;
+}
+.sex{
+  line-height: 10vh;
+}
+.radioUSexD{
+  float: left;
+  width: 50%;
+}
+
+.depart{
+  margin-top: 5vh;
+  border-bottom: 1px solid #eee
+}
+.number,.tel{
+  height: 10vh;
+  border-bottom: 1px solid #eee
+}
+.viewtips{
+  margin: 2vh;
+  color: red;
+  font-size: 4vw;
+}
+.submit{
+  height: 10vh;
+}
+.btnSubmit{
+  width: 30vw;
+  height: 8vh;
+  border-radius: 2vh;
+  background-color: lightskyblue;
+  line-height: 8vh;
+  color: white;
+  text-align: center;
+}
+.btnS{
+  width: 40vw;
+  background-color: #ff9933;
+  color: white;
+}
+.btnH{
+  background-color: olivedrab;
+  color:blanchedalmond;
+}

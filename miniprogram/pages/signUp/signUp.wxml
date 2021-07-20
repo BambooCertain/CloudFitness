@@ -1,0 +1,69 @@
+<!--signUp.wxml-->
+<view class="container">
+  <view class="topPic">
+    <view class="fresh">个人信息</view>
+    <view class="userUrl">
+      <button 
+        open-type="getUserInfo" 
+        class="userinfo-avatar"
+        style="background-image: url({{userInfo.avatarUrl}})"
+        size="default"
+      ></button>
+    </view>
+  </view>
+  
+  <view class="uName">
+    <view class="uLeft">真实姓名</view>
+    <view class="uRight">
+      <input type="text" placeholder="姓名(必填)" class="txtInput" bindinput="iName" value="{{inputName}}"></input>
+    </view>
+  </view>
+
+  <view class="sex">
+    <view class="uLeft">性别</view>
+    <view class="uRight">
+      <radio-group class="radioUSex" bindchange="changeSex">
+
+        <view class="radioUSexD">
+          <radio checked="{{lang=='1'?true:false}}" value='1'>男</radio>
+        </view>
+
+        <view class="radioUSexD">
+          <radio checked="{{lang=='2'?true:false}}" value='2'>女</radio>
+        </view> 
+
+      </radio-group>
+    </view>
+  </view>
+
+  <view class="space">
+
+  </view>
+  <view class="depart">
+    <view class="uLeft">单位</view>
+    <view class="uRight">
+      <picker bindchange="bindCasPickerChange" range="{{casArray}}" mode='selector'>
+    <!-- <input type="text" class="txtInput" placeholder="请选择部门" value="{{casArray[casIndex]}}"></input> -->
+    <view class="sTr">
+      <text class="txtInput">{{casArray[casIndex]}}</text>
+    </view>
+  </picker>
+    </view>
+  </view>
+  <view class="number">
+    <view class="uLeft">学号</view>
+    <view class="uRight">
+      <input type="text" placeholder="学号(必填)" class="txtInput" bindinput="iNumber" value="{{inputNumber}}"></input>
+    </view>
+  </view>
+  <view class="tel">
+    <view class="uLeft">联系电话</view>
+    <view class="uRight">
+      <input type="text" placeholder="手机号" class="txtInput" bindinput="iTel" value="{{inputTel}}"></input>
+    </view>
+  </view>
+  <view class="viewtips">请确定参与活动的微信号是否正确，同时系统会在后台进行信息进行比对，请如实填写个人信息，以免报名不成功或不能领取奖品！</view>
+  <view class="submit">
+    <button class="btnS" hover-class="btnH" bindtap="mySignUp">确定</button>
+  </view>
+</view>

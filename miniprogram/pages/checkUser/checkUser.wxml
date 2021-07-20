@@ -1,0 +1,6 @@
+<!--pages/checkUser/checkUser.wxml-->
+<view bindtap="dispRecord">显示打卡记录</view>
+
+<view class="menu2_view" wx:for="{{result}}" wx:key="key">
+  <text selectable='true'>{{item.uDepart}} {{item.uNumber}} {{item.uName}} {{item.stepLists.length}}</text>
+</view>

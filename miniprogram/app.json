@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/loadding/loadding",
+    "pages/daily/daily",
+    "pages/index/index",
+    "pages/checkUser/checkUser",
+    "pages/signUp/signUp",
+    "pages/monthHistory/monthHistory",
+    "pages/dayHistory/dayHistory",
+    "pages/prizeList/prizeList"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "学生云健身",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-circle": "@vant/weapp/circle/index",
+    "van-skeleton": "@vant/weapp/skeleton/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}
+    

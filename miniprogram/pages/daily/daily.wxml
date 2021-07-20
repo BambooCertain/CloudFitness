@@ -1,0 +1,75 @@
+<!--daily.wxml-->
+<view class="containter">
+  <view class="line-1">
+    <view class="userUrl" bindtap="viewPersonal"><button 
+      open-type="getUserInfo" 
+      class="userinfo-avatar"
+      style="background-image: url({{userInfo.avatarUrl}})"
+      size="default"
+    ></button>
+
+    </view>
+    <view class="userInfo">
+      <view class="userInfoName">{{userInfo.uName}} {{userInfo.uTel}}</view>
+      <view class="userInfoDepart">{{userInfo.uDepart}}</view>
+    </view>
+
+    <view class="userHistory" bindtap="viewHistory">历史记录</view>
+  </view>
+
+  <view class="line-2">
+    <view class="steps">
+      <view class="stepsCircle">
+        <van-circle value="{{runStep/minStep*100}}" stroke-width="6" text="{{runStep}}" stroke-width="12" class="walkStepsWord" size="{{stepCircle}}" color="orange" speed="0"/>
+      </view>
+      <view class="stepsTarget">目标{{minStep}}步</view>
+    </view>
+    <view class="stepConvert">
+      <view class="stepConvert_1">距离：<span style="color:orange;font-weight:bold">{{distance}}</span> 公里</view>
+      <view class="stepConvert_1">热量：<span style="color:orange;font-weight:bold">{{Energy}} </span>千卡</view>
+      <view class="stepConvert_1">相当于消耗 <span style="color:orange;font-weight:bold">{{drumstick}} </span>根鸡腿或者 <span style="color:orange;font-weight:bold">{{cola}} </span>ml可乐</view>
+
+      <view wx:if="{{iCan}}" class="stepConvert_1 btnClockIn btnS" bindtap="recordNow">今日打卡</view>
+      <view wx:else  class="stepConvert_1 btnClockIn btnGrey" bindtap="showSorry">今日打卡</view>
+    </view>
+  </view>
+  
+  <view class="line-3">
+    <view class="p4 p4-1">
+      <view class="p4Pic"><image src="../../images/hd.png"></image></view>
+      <view class="p4Word" bindtap="viewGame">活动简介</view>
+    </view>
+    <view class="p4 p4-2">
+      <view class="p4Pic"><image src="/images/cy.png"></image></view>
+      <view class="p4Word2"> 
+        <view>总参与数：<span style="color:orange;font-weight:bold">{{totalPersons}}</span> 人</view>
+        <view>今日打卡：<span style="color:orange;font-weight:bold">{{todayPersons}}</span> 人</view>
+      </view>
+    </view>
+    <view class="p4 p4-3">
+      <view class="p4Pic"><image src="/images/jp.png"></image></view>
+      <view class="p4Word" bindtap="myPrize">我的奖品</view>
+    </view>
+    <view class="p4 p4-4">
+      <view class="p4Pic"><image src="/images/dk.png"></image></view>
+      <view class="p4Word3">本月已打卡：<span style="color:orange;font-weight:bold">{{days}}</span> 天</view>
+    </view>
+  </view>
+  
+  <view class="line-4">
+    <view class="lucky">
+      <view class="luckyPic"><image src="/images/cj.png"></image></view>
+      <view class="luckyWord" bindtap="viewPrize">幸运抽奖</view>
+    </view>
+  </view>
+
+  <view class="line-5">
+    <view class="prizeTitle">抽奖时间</view>
+    <view class="prizeTime">2月11日以及2月21日 8:00 - 20:00（每十天需要打卡满7天）</view>
+  </view>
+  
+  <view class="line-6">
+    <view class = "prizeTitle">健康运动小贴士</view>
+    <view class = "prizeTime">体育如花绽放快乐校园，青春似火燃烧亮丽人生！</view>
+  </view>
+</view>

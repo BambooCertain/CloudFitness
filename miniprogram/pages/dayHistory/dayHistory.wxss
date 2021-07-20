@@ -1,0 +1,27 @@
+/* pages/dayHistory/dayHistory.wxss */
+.container{
+  width: 90vw;
+  margin:0 auto;
+}
+.stepRecord{
+  line-height: 10vh;
+  width: 90vw;
+  border-bottom: 1px solid lightgray;
+  margin-top: 2vh;
+}
+.stepIcon image{
+  height: 5vh;
+  width: 5vh;
+}
+.stepIcon,.date,.step{
+  float: left;
+}
+.stepIcon{
+  width: 10vw;
+}
+.date{
+  width: 30vw;
+}
+.step{
+  width: 50vw;
+}

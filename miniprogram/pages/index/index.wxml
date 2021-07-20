@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="mainText">
+    <view class="hdTitle">健身走活动方案</view>
+    <view wx:for="{{noticeArr}}" wx:key="key">
+      <view class="hdP">{{item.p}}</view>
+      <view class="hdH1">{{item.h1}}</view>
+    </view>
+  </view>
+  <view >
+  <button wx:if="{{signuped}}" class="btnS" hover-class="btnH" open-type="getUserInfo" bindgetuserinfo="viewDaily">我的主页</button>
+  <button wx:else class="btnS" hover-class="btnH"  open-type="getUserInfo" bindgetuserinfo="getUserInfo">报名参加</button>
+</view>
+
+<button bindtap="closeGrant">授权管理</button>
+<navigator open-type="exit" target="miniProgram">退出</navigator>
+<view style="text-align:center;color:white;margin-top:30rpx">(version:2.0.1)</view>
+</view>

@@ -1,0 +1,28 @@
+/* pages/prizeList/prizeList.wxss */
+.container{
+  width: 90vw;
+  margin: 0 auto;
+}
+.chooseM,.monthList{
+  line-height: 6vh;
+}
+.chooseM{
+  width: 90vw;
+  text-align: left;
+  font-weight: bold;
+  font-size: 4vh;
+  margin-bottom: 3vh;
+}
+.monthList{
+  border-bottom: 1px solid lightgrey;
+}
+.month{
+  float: left;
+  width: 90vw;
+  background-color: lightskyblue;
+  padding-left: 5vw;
+}
+.more{
+  float: right;
+width: 5vw;
+}

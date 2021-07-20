@@ -1,0 +1,7 @@
+<view class="container">
+     <image src="../../images/hznu/loadding.gif"></image>
+     <view>页面加载中……</view>
+</view>
+
+
+

@@ -1,0 +1,17 @@
+<!--pages/dayHistory/dayHistory.wxml-->
+<view class="container">
+  <view class="monthList" wx:for="{{dayLists}}" wx:key="key">
+
+    <view class="stepRecord">
+      <view class="stepIcon">
+        <image src="../../images/foot.png"></image>
+      </view>
+      <view class="date">{{item.date}}</view>
+      <view class="step">
+        <view class="stepNumber">打卡记录 <span style="color:orange"> {{item.step}} </span>步</view>
+      </view>
+    </view>
+
+  </view>
+
+</view>
